@@ -1,0 +1,42 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding:0
+}
+ul li a{
+    height: 17rem;
+    width: 15rem;
+    border: 1px solid whitesmoke;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+}
+li a:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.origins span{
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    color: gray;
+    font-size: .9rem;
+    margin-right :0.3em;
+    display: inline-block;
+}
+.cook-time{
+    font-size: .8rem;
+    flex: 3;
+    text-align: right;
+}
+.cook-time span{
+font-style: italic;
+color:blue;
+}
+.price{
+    color: #424242;
+}
