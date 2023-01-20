@@ -3,7 +3,7 @@
 
 </div>
 
-<div *ngIf="foodPageTags">
-    <a *ngFor="let tagname of foodPageTags">{{tagname}}</a> 
+<div *ngIf="foodPageTags" [style.justifyContent]="justifyContent">
+    <a *ngFor="let tagname of foodPageTags" routerLink="/tag/{{tagname}}">{{tagname}}</a> 
     
     </div>

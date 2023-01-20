@@ -17,8 +17,8 @@
 
         </span>
     </div>
-    <div class="tag">
-        <app-tags [foodPageTags]="food.tags"></app-tags>
+    <div class="tags">
+        <app-tags [foodPageTags]="food.tags" justifyContent="centers"></app-tags>
     </div>
     <div class="cook-time">
         <span>
@@ -30,5 +30,5 @@
             {{food.price| currency}}
         </span>
     </div>
-    <button> Add to Cart</button>
+    <button (click)="addToCart()"> Add to Cart</button>
 </div>

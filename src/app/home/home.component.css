@@ -7,9 +7,9 @@ ul{
     padding:0
 }
 ul li a{
-    height: 17rem;
-    width: 15rem;
-    border: 1px solid whitesmoke;
+    height: 35rem;
+    width: 30rem;
+    border: 3px solid whitesmoke;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -21,15 +21,15 @@ li a:hover{
     cursor: pointer;
 }
 .origins span{
-    border-radius: 2rem;
+    border-radius: 4rem;
     background-color: whitesmoke;
     color: gray;
-    font-size: .9rem;
+    font-size: 1.5rem;
     margin-right :0.3em;
     display: inline-block;
 }
 .cook-time{
-    font-size: .8rem;
+    font-size: 1.5rem;
     flex: 3;
     text-align: right;
 }
@@ -38,5 +38,6 @@ font-style: italic;
 color:blue;
 }
 .price{
-    color: #424242;
+    color:green;
+    font-size: 2rem;
 }
